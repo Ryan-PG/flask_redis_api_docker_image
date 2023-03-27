@@ -10,7 +10,7 @@ services:
     container_name: redis
     restart: always
 
-  flask_redis_set_get_api:
+  flask_api:
     image: hryanneco/flask_redis_set_get_api
     ports:
       - "80:80"
